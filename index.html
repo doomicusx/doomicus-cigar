@@ -1,15 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/global/header.css">
+  <link rel="stylesheet" href="css/global/introducao.css">
+  <link rel="stylesheet" href="css/global/global.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Work+Sans:wght@100;200;300;400;500;700;800&display=swap" rel="stylesheet">
   <title>Doomicus</title>
+  <script>
+    document.documentElement.classList.add("js")
+  </script>
 </head>
 
 <body>
+  <header class="header-bg">
+    <div class="header container">
+      <a href="./"><img src="img/marca.svg" alt="marca"></a>
+      <nav aria-label="primaria">
+        <ul class="header-menu corfundo2">
+          <li><a href="./linhas.html">Linhas</a></li>
+          <li><a href="./planos.html">Planos</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="introducao-bg">
+    <div class="introducao container">
+      <div class="introducao-conteudo">
+        <h1 class="fonteprincipalmedium corfundo2 fadeInDown" data-anime="200"><span>Seu som é sua arte. </span>Equipamentos musicais premium para artistas exigentes.</h1>
+        <p class="fontesecundariaregular corfundo2 fadeInDown" data-anime="200">Descubra o som premium: fones de ouvido e microfones de qualidade excepcional para artistas e entusiastas da música.</p>
+        <a class="botao1 fadeInDown" data-anime="200" href="./linhas.html">Escolha o seu</a>
 
+      </div>
+      <div class="introducao-imagem" data-anime="200">
+        <img src="img/foneprincipal.png" alt="imagem">
+      </div>
+
+    </div>
+  </main>
+  <article class="charutoslista">
+    <h2 class="fonteprincipalmedium container">Escolha o seu</h2>
+    <ul>
+      <li>
+        <a href="./charutos/epicus.html">
+          <img src="/img/fonepicusprincipal.png" alt="Epicus">
+          <h3 class="fontesecundariamedium corfundo">Linha Epicus</h3>
+          <span class="fontelight">R$ 999</span>
+        </a>
+      </li>
+      <li>
+        <a href="./charutos/doomicus.html">
+          <img src="/img/fonedoomicusprincipal.png" alt="Doomicus">
+          <h3 class="fontesecundariamedium corfundo">Linha Doomicus</h3>
+          <span class="fontelight">R$ 1499</span>
+        </a>
+      </li>
+      <li>
+        <a href="./charutos/metallicus.html">
+          <img src="/img/fonemetallicusprincipal.png" alt="Metallicus">
+          <h3 class="fontesecundariamedium corfundo">Linha Metallicus</h3>
+          <span class="fontelight">R$ 2999</span>
+        </a>
+      </li>
+    </ul>
+  </article>
+  <article class="qualidade-bg corfundo2">
+    <div class="qualidade container" id="qualidadebugado">
+      <div class="qualidade-conteudo">
+
+        <h2 class="fonteprincipalmedium cortextoqualidade">Você escolhe a linha, mas a <span class=".cortextoqualidade">qualidade</span> é a mesma!</h2>
+        <p class="fontesecundariaregular cortextoqualidade">Nossos fones de ouvido premium oferecem som imersivo e equilibrado, com cancelamento de ruído avançado. Nossos microfones premium captam cada nuance e matiz, criando gravações excepcionais. Para músicos exigentes e entusiastas do som que buscam a melhor qualidade de áudio. Experimente a diferença que um equipamento de qualidade superior pode fazer para sua música.</p>
+        <a class="botao2 fontesecundariaregular" href="./linhas.html">Escolha uma Linha</a>
+        <div class="qualidade-vantagens">
+          <div class="qualidade-textos">
+            <img class="plantaicone" src="img/iconefoneescuro.svg" alt="planta">
+            <h3 class="fonteterceiraregular cortextoqualidade">Qualidade superior de som</h3>
+            <p class="fontelight cortextoqualidade">Drivers de neodímio, cancelamento de ruído ativo e design circumaural com almofadas de espuma com memória. Proporcionam uma resposta de frequência precisa, reduzem o ruído externo e oferecem máximo conforto.</p>
+          </div>
+          <div class="qualidade-textos">
+            <img class="processoicone" src="/img/iconemicrofoneescuro.svg" alt="processo">
+            <h3 class="fonteterceiraregular cortextoqualidade">Capture a perfeição da sua voz</h3>
+            <p class="fontelight cortextoqualidade">Cápsula de condensador de grande diafragma, tecnologia de cancelamento de ruído e design robusto. Garante uma gravação clara e precisa, reduzindo os ruídos externos. Ideal para artistas e profissionais que exigem o melhor som.</p>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="qualidade-imagem">
+        <img src="/img/qualidade.png" alt="qualidade">
+      </div>
+
+    </div>
+
+  </article>
+  <section class="parceiros.bg">
+    <div class="parceirostudo">
+      <h2 class="fonteprincipalmedium" id="nossosparceirost">nossos parceiros</h2>
+      <div class="parceiroslista">
+        <ul class="parceiros">
+          <li>
+            <h2 class="fonteparceiros">
+              Shure
+            </h2>
+          </li>
+          <li>
+            <h2 class="fonteparceiros">
+              Sennheiser
+            </h2>
+          </li>
+          <li>
+            <h2 class="fonteparceiros">
+              AKG
+            </h2>
+          </li>
+          <li>
+            <h2 class="fonteparceiros">
+              Audio-Technica
+            </h2>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="opniao-bg">
+    <div class="opniaooq">
+      <h3>O que nossos clientes dizem</h3>
+    </div>
+    <div class="opniao-container">
+      <div class="elizeu"><img src="/img/elizeu.png" alt="elizeu"></div>
+      <div class="opniaotexto">
+        <p class="fonteopiniao texto" id="textopniao1"> “ Como um músico que canta em shows exigentes com grandes públicos, eu preciso de equipamentos que possam <span class="fonteopiniao2">lidar com o desafio.</span> Os fones da Doo me permitiram ouvir cada detalhe do som que eu estava produzindo, enquanto ainda mantinha um alto nível de cancelamento de ruído externo. O microfone que eu experimentei também foi excepcional. A clareza e a qualidade do som que ele produziu foram de primeira classe, permitindo-me transmitir a minha voz de maneira poderosa e emocionante. <span class="fonteopiniao2">Além disso, eu assinei o plano premium da Doo, que me fornece todos os equipamentos necessários para realizar um show de alto nível.</span> “</p>
+        <p class=" elizeu fonteopiniaoextra" id="elizeu">Elizeu</p>
+        <p class="fonteopiniaoextra ceo" id="ceo">Vocalista Lost Horizon</p>
+        <a class="botao3" href="/">ver mais avaliações</a>
+      </div>
+    </div>
+  </section>
+  <article class="planos-bg">
+    <div class="planos-container">
+      <h2 class="fonteprincipalmedium10">
+        Planos especiais
+      </h2>
+      <div class="seguros-item1">
+        <h3 class="fontplanosmedium1">
+          Quality
+        </h3>
+        <span class="fontplanosmedium1">R$3999 <span class="fontemensal1">mensal</span></span>
+        <ul>
+          <li class="fonteplanos1">
+            Linha Epicus & Doomicus
+          </li>
+          <li class="fonteplanos1">
+            Equipamentos de gravação
+          </li>
+          <li class="fonteplanos1">
+            Amplificadores e caixas de som
+          </li>
+          <li class="fonteplanos1"">
+            Pedais de efeitos e processadores de sinal
+          </li>
+        </ul>
+        <a class=" botaoplanos1" href="./planos.html">Seja Quality</a>
+      </div>
+      <div class="seguros-item2">
+        <h3 class="fontplanosmedium2">
+          Premium
+        </h3>
+        <span class="fontplanosmedium2">R$6999<span class="fontemensal2">mensal</span></span>
+        <ul>
+          <li class="fonteplanos2">
+            Todas as linhas
+          </li>
+          <li class="fonteplanos2">
+            Todos equipamentos do plano quality
+          </li>
+          <li class="fonteplanos2">
+            Mesas de mixagem e equipamentos de som para estúdio
+          </li>
+          <li class="fonteplanos2">
+            Guitarras, violões e baixos elétricos (Escolha um)
+          </li>
+          <li class="fonteplanos2">
+
+
+            Teclados e pianos digitais
+          </li>
+          <li class="fonteplanos2">
+            Acessórios especiais
+          </li>
+          <li class="fonteplanos2">
+            Acesso ao clube Premium Music
+          </li>
+        </ul>
+        <a class="botaoplanos2" href="./planos.html">Seja Premium</a>
+      </div>
+    </div>
+
+  </article>
+
+  <footer class="footer-bg">
+    <div class="footer-container">
+      <img src="img/marca2.svg" alt="Doomicus">
+      <div class="footer-contato">
+        <h3 class="fontfooter1">Contato</h3>
+        <ul class="fontfooter2">
+          <li><a href="tel:+5511945380602">+55 11 945380602</a></li>
+          <li><a href="mailto:doomicus.dev@gmail.com">doomicus.dev@gmail.com</a></li>
+          <li><a href="/">São Paulo - Brasil</a></li>
+        </ul>
+      </div>
+      <div class="footer-informacoes">
+        <h3 class="fontfooter1">Informações</h3>
+        <nav>
+          <ul class="fontfooter2">
+            <li>
+              <a href="./linhas.html">Linhas</a>
+            </li>
+            <li>
+              <a href="./planos.html">Planos</a>
+            </li>
+            <li>
+              <a href="./contato.html">Contato</a>
+            </li>
+            <li>
+              <a href="./termos.html">Termos e Condições</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <p class="fontfooter2">Doomicus © Alguns direitos reservados.</p>
+    </div>
+  </footer>
+  <script src="/js/plugins/simple-anime.js"></script>
+  <script src="/js/script.js"></script>
 </body>
 
 </html>

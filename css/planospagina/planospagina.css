@@ -1,0 +1,121 @@
+#planos-pagina2 .planos-container {
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+#planos-pagina2 .planos-container h2 {
+  color: #080c0b;
+}
+
+#planos-pagina2 {
+  background-color: #e9fef6;
+}
+
+#planos-pagina2 .planos-bg {
+  background-color: #e9fef6;
+}
+
+.qualidade-container2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
+  text-align: start;
+}
+.qualidade-bg2 {
+  background-color: #181818;
+}
+.qualidade-container2 ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+}
+
+.qualidade-container h3 {
+  margin-bottom: 12px;
+}
+
+.qualidade-container h2 {
+  font-weight: 400;
+  color: #e9fef6;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+.qualidade-container img {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .qualidade-container2 h2 {
+    font-size: 2.375rem;
+  }
+
+  #planos-pagina2 .seguros-item1 > h3 {
+    margin-left: -120px;
+  }
+  #planos-pagina2 .seguros-item2 > h3 {
+    margin-left: -100px;
+  }
+  .qualidade-container2 {
+    padding-top: 40px;
+    margin: 40px;
+  }
+  .qualidade-container2 ul {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.perguntas-bg {
+  background-color: #e9fef6;
+}
+
+.perguntas-fundo {
+  background-color: #e9fef6;
+  padding-left: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.perguntas-container h1 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.perguntas-fundo:first-of-type {
+  border-radius: 5px 5px 0 0;
+}
+.perguntas-fundo:nth-of-type(even) {
+  background-color: #fff;
+}
+.perguntas-fundo h2 {
+  padding-top: 20px;
+  margin: 0px;
+}
+
+.perguntas-fundo p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+
+.perguntas-fundo:last-child {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 800px) {
+  .perguntas-fundo {
+    background-color: #ffffff;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .perguntas-container h1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}

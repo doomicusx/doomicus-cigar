@@ -1,0 +1,34 @@
+.termos-container h2 {
+  font-size: 28px;
+  color: #e9fef6;
+}
+
+.termos-container {
+  margin-bottom: 40px;
+  margin-left: 80px;
+}
+
+.termos-container p {
+  max-width: 75ch;
+  margin-bottom: 20px;
+  color: #e9fef6;
+  line-height: 150%;
+}
+
+.termos-container p + h2 {
+  margin-top: 20px;
+}
+@media (max-width: 800px) {
+  .termos-container h2 {
+    font-size: 1.75rem;
+    font-weight: 400;
+  }
+  .termos-container p {
+    font-size: 0.875rem;
+  }
+  .termos-container {
+    margin: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}

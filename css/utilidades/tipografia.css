@@ -1,0 +1,233 @@
+.fonteprincipalmedium {
+  font: 500 3.75rem/120% "Work Sans", sans-serif;
+}
+
+.fonteprincipalmedium10 {
+  font: 500 3rem/120% "Work Sans", sans-serif;
+  color: #181818;
+}
+
+.fonteprincipallight {
+  font: 300 3.75rem/120% "Work Sans", sans-serif;
+}
+
+.fonteprincipalbold {
+  font: 700 3.75/120% "Work Sans", sans-serif;
+}
+
+.fontesecundariaregular {
+  font: 400 1.75rem/120% "Work Sans", sans-serif;
+  line-height: 150%;
+}
+
+.fontesecundariamedium {
+  font: 500 1.75rem/33px "Work Sans", sans-serif;
+}
+
+.fontesecundariapequena {
+  font: 400 1rem/18px "Work Sans", sans-serif;
+}
+
+.fontelight {
+  font: 300 0.875rem/130% "Work Sans", sans-serif;
+  color: #e9fef6;
+}
+
+.fonteterceiraregular {
+  font: 400 1.25rem/20px "Work Sans", sans-serif;
+}
+
+.fontequalidadep {
+  font: 400 28px/33px;
+}
+
+.fonteparceiros {
+  font: 300 48px/48px "Work Sans", sans-serif;
+  color: #e9fef6;
+}
+
+.fonteopiniao {
+  font: 400 1.25rem/130% "Work Sans";
+  color: #181818;
+}
+
+.fonteopiniao2 {
+  font: 500 1.25rem/130% "Work Sans";
+  color: #181818;
+}
+
+.fonteopiniaoextra {
+  font: 200 1rem/130% "Work Sans";
+  color: #181818;
+}
+
+.fontplanosmedium1 {
+  font: 500 1.68rem/27px "Work Sans";
+  color: #e9fef6;
+}
+.fontplanosmedium2 {
+  font: 500 1.68rem/27px "Work Sans";
+  color: #181818;
+}
+
+.fonteplanos1 {
+  font: 400 14px/14px "Work Sans";
+  color: #e9fef6;
+}
+
+.fonteplanos2 {
+  font: 400 14px/14px "Work Sans";
+  color: #181818;
+}
+
+.fontemensal1 {
+  font: 300 14px/14px "Work Sans";
+  color: #d3dddc;
+}
+
+.fontemensal2 {
+  font: 300 14px/14px "Work Sans";
+  color: #080c0b;
+}
+
+.fontfooter1 {
+  font: 700 24px/30px "Work Sans";
+  color: #ffffff;
+}
+
+.fontfooter2 {
+  font: 400 18px/21px "Work Sans";
+  color: #ffffff;
+}
+
+.fontetitulo1 {
+  font: 700 54px/54px "Work Sans";
+  color: #d3dddc;
+}
+
+.fontetitulo2 {
+  font: 700 14px/14px "Work Sans";
+  color: #555d50;
+}
+
+.fontetermos2 {
+  font: 400 1rem/120% "Work Sans";
+}
+
+.fontelinhapreco {
+  font: 300 12px/12px "Work Sans";
+  color: #ffffff;
+}
+
+.fontlinha {
+  font: 500 38px/38px "Work Sans";
+  color: #080c0b;
+}
+.fontlinha2 {
+  font: 500 38px/38px "Work Sans";
+  color: #d3dddc;
+}
+
+.fontlinhap {
+  font: 400 18px/120% "Work Sans";
+  color: #080c0b;
+}
+.fontlinhap2 {
+  font: 400 18px/120% "Work Sans";
+  color: #d3dddc;
+}
+
+.fontlinhaqualidade {
+  font: 400 14px/120% "Work Sans";
+  color: #d3dddc;
+}
+
+.fontlinhaqualidade2 {
+  font: 400 14px/120% "Work Sans";
+  color: #080c0b;
+}
+
+.fontequalidadezk {
+  font: 500 52px/120% "Work Sans";
+  line-height: 120%;
+  color: #e9fef6;
+}
+
+.fontequalidadezkh3 {
+  font: 400 20px/120% "Work Sans";
+  color: #d3dddc;
+}
+
+.fontequalidadezkp {
+  font: 300 14px/130% "Work Sans";
+  color: #d3dddc;
+}
+
+.fonteperguntash2 {
+  font: 400 16px/120% "Work Sans";
+  color: #080c0b;
+}
+
+.fonteperguntashp {
+  font: 300 12px/150% "Work Sans";
+  color: #080c0b;
+}
+
+.fonteperguntash1 {
+  font: 500 38px/120% "Work Sans";
+}
+
+.fontpreco2 {
+  font: 300 18px/120% "Work Sans";
+  color: #d3dddc;
+}
+
+.fontlinha2 {
+  font: 500 42px/120% "Work Sans";
+  color: #d3dddc;
+}
+
+.fontdescricao1 {
+  font: 400 18px/120% "Work Sans";
+  color: #d3dddc;
+}
+
+.fontdescricao2 {
+  font: 400 12px/120% "Work Sans";
+  color: #d3dddc;
+}
+
+.fontdescricao3 {
+  font: 400 24px/150% "Work Sans";
+  color: #d3dddc;
+}
+
+.fontentrega {
+  font: 400 12px/120% "Work Sans";
+  color: #d3dddc;
+}
+
+.fonteesmeralda {
+  font: 500 42px/120% "Work Sans";
+  color: #d3dddc;
+}
+
+.fonteesmeraldap {
+  font: 400 24px/120% "Work Sans";
+  color: #d3dddc;
+}
+
+.fonteform1 {
+  font: 400 20px/120% "Work Sans";
+  color: #d3dddc;
+}
+
+.fonteform2 {
+  font: 400 16px/120% "Work Sans";
+  color: #d3dddc;
+}
+
+.fonteform3 {
+  font: 400 12px/120% "Work Sans";
+  color: #080c0b;
+}

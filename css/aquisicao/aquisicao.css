@@ -1,0 +1,139 @@
+#aquisicao {
+  background: linear-gradient(#181818 40%, #e9fef6 0px);
+}
+
+.aquisicao-container {
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 240px;
+  gap: 20px;
+  position: relative;
+}
+
+.aquisicao-container h2 {
+  text-transform: uppercase;
+}
+
+.aquisicao-produto,
+.aquisicao-form {
+  padding: 60px;
+  position: relative;
+}
+.aquisicao-form {
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.aquisicao-produto {
+  border-radius: 5px;
+  background: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: start;
+  gap: 20px;
+  position: relative;
+}
+.aquisicao-produto label {
+  font: 500 16px/100% "Work Sans";
+  color: #181818;
+  background-color: #23f3a8;
+  padding: 12px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+.aquisicao-produto label::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #181818;
+  border-radius: 50%;
+  margin-right: 8px;
+  box-sizing: border-box;
+}
+
+.aquisicao-produto label span {
+  display: none;
+}
+
+.aquisicao-produto input:checked + label span {
+  display: inline-block;
+}
+
+.aquisicao-produto input:checked + label::before {
+  box-shadow: inset 0 0 0 3px #fff, inset 0 0 0 6px #181818;
+}
+
+.aquisicao-produto input:checked + label {
+  background: #fff;
+  color: #181818;
+}
+.aquisicao-produto input {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.aquisicao-produto > * {
+  grid-column: 1/-1;
+}
+
+.aquisicao-produto > label {
+  grid-column: initial;
+}
+
+.aquisicao-conteudo > label {
+  margin-bottom: 20px;
+}
+
+#charuto:checked ~ #aquisicao-charuto,
+#plano:checked ~ #aquisicao-plano {
+  display: block;
+}
+
+.aquisicao-conteudo {
+  display: none;
+}
+
+.charutos-detalhes {
+  display: none;
+  background: #fff;
+  padding: 20px;
+
+  grid-template-columns: 1fr 1fr;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.charutos-detalhes li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.charutos-detalhes li img {
+  margin-right: 8px;
+}
+
+.aquisicao-produto input:checked + label + .charutos-detalhes {
+  display: grid;
+}
+
+@media (max-width: 800px) {
+  .aquisicao-container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .charutos-detalhes {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

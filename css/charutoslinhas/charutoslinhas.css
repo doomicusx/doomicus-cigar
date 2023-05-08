@@ -1,0 +1,132 @@
+.epicus-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  padding: 0px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 20px;
+}
+
+#epicus .titulo-container #caminho {
+  margin-bottom: 40px;
+}
+
+.epicus-conteudo > p {
+  margin-bottom: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 1.125rem;
+}
+
+.epicus-botao {
+  margin-left: 40px;
+  margin-right: 40px;
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  gap: 10px;
+}
+
+#epicus .fontelight {
+  color: #e9fef6;
+}
+
+.epicus-botao > span {
+  background-color: #131313;
+  padding: 5px 5px;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.epicus-imagem {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.epicus-imagem img {
+  flex: 1;
+  min-width: 200px;
+}
+.epicus-imagem img {
+  border-radius: 5px;
+}
+.epicus-imagem img:first-child {
+  min-width: 100%;
+}
+
+.epicus-descricao {
+  margin-top: 80px;
+  max-width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.epicus-descricao li {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #181818;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.epicus-descricao li:nth-of-type(even) {
+  background-color: #131313;
+}
+
+@media (max-width: 800px) {
+  .epicus-botao {
+    margin: 0px;
+  }
+  .epicus-container {
+    grid-template-columns: 1fr;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .epicus-conteudo {
+    max-width: 100%;
+  }
+
+  .epicus-conteudo p {
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+
+  .epicus-botao {
+    grid-template-columns: 1fr;
+    margin: 0px;
+    margin-bottom: 40px;
+  }
+
+  .epicus-imagem {
+    grid-row: 2;
+  }
+
+  .epicus-imagem img {
+    max-width: 100%;
+  }
+
+  .epicus-descricao {
+    margin: 0px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .epicus-conteudo p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .botaolinha {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}

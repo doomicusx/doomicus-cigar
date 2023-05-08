@@ -1,0 +1,106 @@
+#contato {
+  background: linear-gradient(#181818 40%, #e9fef6 0px);
+}
+
+.contato-container {
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 240px;
+  gap: 20px;
+}
+
+.contato-dados,
+.contato-form {
+  padding: 60px;
+}
+
+.contato-dados {
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+.contato-form {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.contato-dados h2 {
+  margin-bottom: 40px;
+  margin-top: -20px;
+  position: relative;
+}
+
+.contato-endereco p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contato-meios a {
+  display: block;
+  max-width: max-content;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 25px;
+}
+
+.contato-meios a:hover {
+  color: #ffffff;
+}
+
+.contato-endereco p {
+  margin-left: 25px;
+}
+
+.localicone {
+  position: absolute;
+  top: 63px;
+  left: 0;
+}
+.emailicone {
+  position: absolute;
+  top: 181px;
+  left: 0;
+}
+.telefoneicone {
+  position: absolute;
+  top: 240px;
+  left: 0;
+}
+.contato-redes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 120px;
+}
+
+@media (max-width: 800px) {
+  .contato-container {
+    grid-template-columns: 1fr;
+    margin: 40px;
+    margin-bottom: 180px;
+    justify-content: center;
+  }
+  .contato-redes {
+    margin-bottom: 80px;
+  }
+  .contatos-dados,
+  .contatos-form {
+    padding: 20px;
+  }
+  .localicone {
+    position: absolute;
+    top: 63px;
+    left: 0;
+  }
+  .emailicone {
+    position: absolute;
+    top: 181px;
+    left: 0;
+  }
+  .telefoneicone {
+    position: absolute;
+    top: 240px;
+    left: 0;
+  }
+}

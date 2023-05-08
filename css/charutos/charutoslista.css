@@ -1,0 +1,83 @@
+.charutoslista {
+  margin-bottom: 40px;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.charutoslista ul {
+  display: flex;
+  gap: 100px;
+  margin-left: 40px;
+  padding: 0 20px 20px 20px;
+  max-width: 1200px;
+  overflow: auto;
+}
+
+#epicus .charutoslista {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#epicus .charutoslista h2 {
+  margin-bottom: 40px;
+}
+.charutoslista li {
+  min-width: 280px;
+}
+.charutoslista a {
+  display: block;
+}
+
+.charutoslista h2 {
+  margin-bottom: 40px;
+  margin-top: 0px;
+  font-size: 42px;
+  color: #e9fef6;
+  font-weight: 300;
+}
+
+.charutoslista img {
+  margin-bottom: 16px;
+  width: 351.22px;
+  height: 473.22px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.15));
+}
+
+#epicus .charutoslista img {
+  width: 550px;
+  height: 282px;
+}
+
+.charutoslista h3 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  transition: transform 2s;
+  color: #e9fef6;
+  font-weight: 400;
+}
+
+.charutoslista h3:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+  .charutoslista {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .charutoslista ul {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .charutoslista {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+  }
+  .charutoslista ul {
+    gap: 20px;
+  }
+}
